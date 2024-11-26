@@ -25,7 +25,7 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '453VuR6f3nTPi3aJro0jaqlZVtMmhjkF0vYyvrrKGwQ',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '07-11',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -45,6 +45,10 @@ const USER_CONFIG = {
         { keyword: 'love_day', date: '2024-11-23' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
+        // 小鱼的生日
+         { keyword: 'birth_day', date: '2005-07-11' },
+        // 认识的日子
+         { keyword: 'meet_day', date: '2024-09-03' }
       ],
     },
   ],
